@@ -34,6 +34,7 @@ function playGame(userChoice){
     if(userChoice === comp){
         console.log("Game Draw");
         msg.innerText = "Game Draw!";
+        msg.style.backgroundColor = "#081B31";
     }
     else if(userChoice === "rock" && comp === "scissors"){
         console.log("You Won");
